@@ -1,0 +1,115 @@
+:root {
+
+    --vermelho: hsl(0, 78%, 62%);
+    --ciano: hsl(180, 62%, 55%);
+    --laranja: hsl(34, 97%, 64%);
+    --azul: hsl(212, 86%, 64%);
+
+    --azulEscuro: hsl(234, 12%, 34%);
+    --azulAcinzentado: hsl(229, 6%, 66%);
+    --cinzaClaro: hsl(0, 0%, 98%);
+
+    --font: 'Poppins', sans-serif;
+    ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.tudo {
+    margin: 32px 0;
+}
+.PrimeiroTexto {
+    text-align: center;
+    font-family: var(--font);
+}
+
+.textoInicial {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+
+.textoInicial2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.textoInicial3 {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 48px;
+}
+
+.todosCartoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titulo {
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.subtitulo {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 64px;
+}
+
+svg {
+    float: right;
+}
+
+.cartao {
+    border-top: 5px solid var(--ciano);
+    background-color: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 32px;
+}
+
+.alinhar {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartao2 {
+    border-top: 5px solid var(--vermelho);
+    background-color: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 32px;
+}
+
+.cartao3 {
+    border-top: 5px solid var(--laranja);
+    background-color: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cartao4 {
+    border-top: 5px solid var(--azul);
+    background-color: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 32px;
+}

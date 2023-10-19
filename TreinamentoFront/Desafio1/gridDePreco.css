@@ -1,0 +1,139 @@
+:root {
+    --fundo: rgb(199, 199, 199);
+    --fundoComponent: white;
+    --fundoComponent2: hsl(179, 61%, 43%);
+    --fundoComponent3: hsl(179, 47%, 51%);
+    --corLetra: hsl(179, 62%, 43%);
+    --corLetra2:hsl(71, 73%, 54%);
+    --corLetra3:hsl(0, 0%, 56%);
+    --corLetra4: white;
+
+    --fontBody:'Karla', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fundo);
+}
+
+.allContent {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+}
+
+.content1 {
+    background-color: var(--fundoComponent);
+    font-family: var(--fontBody);
+    padding: 64px;
+    border-radius: 16px 16px 0 0;   
+}
+
+.content1>.titulo {
+    color: var(--corLetra);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.content1>.subtitulo{
+    color: var(--corLetra2);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.content1>.texto {
+    color: var(--corLetra3);
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+.twoBoxes {
+    display: flex;
+}
+
+.content2 {
+    background-color: var(--fundoComponent2);
+    font-family: var(--fontBody);
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 0 0 0 16px;
+}
+
+.content2>.titulo {
+    color: var(--corLetra4);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.content2>.subtitulo{
+    color: rgb(170, 170, 170);
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.content2>.subtitulo>span {
+    color: var(--corLetra4);
+    font-size: 40px;
+    margin-right: 16px;
+}
+
+.content2>.texto {
+    color: var(--corLetra4);
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.content2>button {
+    background-color: var(--corLetra2);
+    color: var(--corLetra4);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.content2>button:hover {
+    background-color: hsl(71, 55%, 52%);
+    color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
+.content3 {
+    background-color: var(--fundoComponent3);
+    padding: 64px;
+    width: 50%;
+    border-radius: 0 0 16px 0;
+}
+
+.content3>.titulo {
+    color: var(--corLetra4);
+    font-size: 40px;
+    font-family: var(--fontBody);
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.content3>.texto {
+    color: var(--corLetra4);
+    font-size: 20px;
+    font-family: var(--fontBody);
+    font-weight: 400;
+    line-height: 1.5;
+}
